@@ -1,6 +1,6 @@
 # Landing page: AstroMart
 
-Spotify clon, an exercise of HTML + CSS.
+A landing page for an space agency exercise on HTML5 + CSS.
 
 ## Description
 
