@@ -12,7 +12,7 @@
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="navbar-expanded">
                 <li>
                     <div class="navbar-logo"></div>
                 </li>
@@ -21,31 +21,111 @@
                 <li><a href="#">Tienda</a></li>
                 <li><a href="#">AstroPuntos</a></li>
             </ul>
-            <button>Inicio de sesión</button>
+            <button class="navbar-expanded">Inicio de sesión</button>
+            <div class="navbar-collapsed navbar-logo"></div>
+            <a href="#" class="navbar-collapsed">
+                <div class="hamburguer-menu">
+                    <div class="hamburguer-menu-line"></div>
+                    <div class="hamburguer-menu-line"></div>
+                    <div class="hamburguer-menu-line"></div>
+                </div>
+            </a>
         </nav>
         <section class="jumbotron">
             <div class="jumbotron-text">
-                <span class="bold">Astro<span class="gray-em">MART</span> </span>Presentes en cinco sistemas.
+                <span class="bold">Astro<span class="gray-em">MART</span> </span>Contigo al infinito.
                 <div><button>Ir a la tienda</button></div>
             </div>
         </section>
+        <div class="upper-shadow"></div>
     </header>
     <main>
         <section>
             <article class="new-products">
                 <div>
-                    <h1>Nuevos Productos</h1>
-                    <h2>Siempre renovando nuestro stock.</h2>
-                    <div class="horizontal-line"><div class="circle"></div></div>
+                    <h1>El mejor servicio</h1>
+                    <div class="horizontal-line"></div>
+                    <h2>El compromiso es contigo.</h2>
                 </div>
-                <div class="cards">
-                    <div class="cards-card">
-                        
+                <div class="card-gallery">
+                    <div class="card">
+                        <img src="./assets/img/cards-repair-shop.png" alt="">
+                        <div class="card-details">
+                            <div class="card-details-text">
+                                <h3>Taller mecánico</h3>
+                                <p>Realizamos reparaciones de todo tipo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/astromart-inside.png" alt="">
+                        <div class="card-details">
+                            <div class="card-details-text">
+                                <h3>Cómodas instalaciones</h3>
+                                <p>Brindamos atención de primera calidad.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/cards-cockpit.png" alt="">
+                        <div class="card-details">
+                            <div class="card-details-text">
+                                <h3>Accesorios para ti</h3>
+                                <p>Desde inversores de singularidad hasta combustible.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h1>Categorías</h1>
+                    <div class="horizontal-line"></div>
+                    <h2>Visita nuestra tienda directamente desde tu nave y te enviamos tus compras a tu estación de transferencia cuántica.</h2>
+                </div>
+                <div class="categories">
+                    <div class="categories-item">
+                        <img src="./assets/img/categories-parts.png" alt="">
+                        <div class="card-details">
+                            <div class="categories-item-text">Generadores de Escudo</div>
+                        </div>
+                    </div>
+                    <div class="categories-item">
+                        <img src="./assets/img/categories-food.png" alt="">
+                        <div class="card-details">
+                            <div class="categories-item-text">Insumos y consumibles</div>
+                        </div>
+                    </div>
+                    <div class="categories-item">
+                        <img src="./assets/img/categories-nexus.png" alt="">
+                        <div class="card-details">
+                            <div class="categories-item-text">Distensores de Singularidad</div>
+                        </div>
+                    </div>
+                    <div class="categories-item">
+                        <img src="./assets/img/categories-wormholes.png" alt="">
+                        <div class="card-details">
+                            <div class="categories-item-text">Orbitrones estelares</div>
+                        </div>
+                    </div>
+                    <div class="categories-item">
+                        <img src="./assets/img/categories-weapons.png" alt="">
+                        <div class="card-details">
+                            <div class="categories-item-text">Armamento de Fase</div>
+                        </div>
+                    </div>
+                    <div class="categories-item">
+                        <img src="./assets/img/categories-screens.png" alt="">
+                        <div class="card-details">
+                            <div class="categories-item-text">Electrónica cuántica</div>
+                        </div>
                     </div>
                 </div>
             </article>
         </section>
     </main>
+    <footer>
+        <div class="footer-margin"></div>
+    </footer>
 </body>
-
 </html>
