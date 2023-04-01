@@ -6,11 +6,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Michroma', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 body {
     background-color: rgb(20, 20, 25);
     color: white;
+    min-width: 430px;
 }
 
 /* NAVIGATION BAR ========================= */
@@ -77,9 +79,9 @@ nav button {
     box-shadow: 2px 2px 10px rgba(0,0,0,50%);
 }
 
-nav button:hover ,.jumbotron button:hover{
+nav button:hover , .jumbotron-button:hover{
     transition-duration: 200ms;
-    transform: scale(110%);
+    transform: scale(105%);
     background-color: rgb(40,40,50);
 }
 
@@ -129,7 +131,7 @@ nav button:hover ,.jumbotron button:hover{
     font-size: xx-large;
     font-weight: 200;
     text-align: right;
-    top: calc(80%);
+    top: 65%;
     left: -50px;
 }
 
@@ -143,35 +145,54 @@ nav button:hover ,.jumbotron button:hover{
     font-size: xxx-large;
 }
 
-.jumbotron button {
-    margin: 20px 0;
+.jumbotron-interaction {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.jumbotron-button, .jumbotron-text-input {
     padding: 10px 30px;
-    background-color: rgba(57, 57, 70,30%);
     border: none;
     border-radius: 30px;
-    font-size: large;
     font-weight: 500;
     color:white;
     box-shadow: 2px 2px 10px rgba(0,0,0,50%);
+    margin: 20px 0 0 0;
 }
 
-@media (max-width: 900px) {
-    .jumbotron-text {
-        font-size: x-large;
-    }
-    .bold {
-        font-size: xx-large;
-    }
+.jumbotron-button {
+    background-color: rgba(57, 57, 70,30%);
+    font-size: large;
 }
 
-@media (max-width: 550px) {
+.jumbotron-text-input {
+    font-size: medium;
+    width: 550px;
+    background-color: white;
+}
+
+@media (max-width: 850px) {
     .jumbotron-text {
+        top: 55%;
+        left: 0;
+        text-align: center;
         display: flex;
         flex-direction: column;
-        font-size: large;
+        font-size: xx-large;
+    }
+    .jumbotron-text-input {
+        font-family: 'Roboto';
+        font-size: medium;
+        text-align: center;
+        width: 90%;
+        background-color: white;
+    }
+    .jumbotron-button {
+        width: 90%;
     }
     .bold {
-        font-size: x-large;
+        font-size: xxx-large;
     }
 }
 
