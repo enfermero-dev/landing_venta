@@ -193,7 +193,7 @@ nav button:hover , .jumbotron-button:hover, .cta-button:hover {
         display: flex;
         flex-direction: column;
         font-size: xx-large;
-        top: calc(100vh - 450px);
+        top: calc(100vh - 490px);
     }
     .jumbotron-text-input {
         font-family: 'Roboto';
