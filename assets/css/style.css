@@ -184,8 +184,10 @@ nav button:hover , .jumbotron-button:hover, .cta-button:hover {
 }
 
 @media (max-width: 850px) {
+    /* Mobile layout */
     .jumbotron {
         height: calc(100vh - 110px);
+        min-height: 500px; /* For landscape phones */
     }
     .jumbotron-text {
         left: 0;
@@ -211,8 +213,9 @@ nav button:hover , .jumbotron-button:hover, .cta-button:hover {
 }
 
 @media (max-width: 450px) {
+    /* Smaller font  */
     .jumbotron-text {
-        top: calc(100vh - 400px);
+        top: calc(100vh - 440px);
         font-size: x-large;
     }
     .jumbotron-text-input {
@@ -222,6 +225,25 @@ nav button:hover , .jumbotron-button:hover, .cta-button:hover {
         font-size: xx-large;
     }
 }
+
+@media (max-height: 500px) {
+    /* Landscape orientation fix on phones */
+    .jumbotron-text {
+        top: 70px;
+        font-size: medium;
+    }
+    .jumbotron-text-input {
+        font-size: small;
+    }
+    .bold {
+        font-size: x-large;
+    }
+    .jumbotron-button {
+        font-size: medium;
+    }
+}
+
+/* Text elements  */
 
 h1 {
     margin: 70px 0 10px 0;
@@ -234,6 +256,8 @@ h2 {
     font-weight: 500;
     margin:  10px 0 70px 0;
 }
+
+/* A decoration line  */
 
 .horizontal-line {
     position: relative;
