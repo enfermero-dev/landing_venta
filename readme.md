@@ -6,6 +6,9 @@ A landing page for an space agency exercise on HTML5 + CSS.
 
 Using HTML and CSS, I created a landing page for an space agency, called AstroMart. I use custom CSS, with little help of external resources, as a deep exercise of Frontend design capabilities on HTML 5 and cascading style.
 
+## Landing page Wireframe
+
+[Here](https://github.com/MarceloAndresMendoza/landing_venta/blob/main/Maqueta%20Astromart.jpg) you can view a wireframe of the website, with the initial idea.
 
 ## Visuals and preview 👀
 
