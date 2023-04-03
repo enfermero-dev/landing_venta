@@ -1,13 +1,23 @@
 /* 2023 MARCELO MENDOZA  - https://github.com/MarceloAndresMendoza*/
-/* This document is open source, GNU ver 3 license.  */
+/* This document is released under open source, GNU ver 3 license.  */
 /* You can use freely this document, please keep the reference to me on this header. */
 
-@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Roboto:wght@500&display=swap');
+@font-face {
+    font-family: "Michroma";
+    src: url('../fonts/Michroma/Michroma-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Roboto Black";
+    src: url('../fonts/Michroma/Michroma-Regular.ttf');
+}
 
 /* DOCUMENT VARIABLES  */
 :root {
     --document-horizontal-margin: 30px;
     --ui-button-color: rgba(57, 57, 70,30%);
+    --font-futuristic: 'Michroma', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-normal: 'Roboto' , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* GLOBAL INITIALIZATION ================== */
@@ -50,6 +60,7 @@ nav {
     height: 110px;
     font-size: larger;
     font-weight: 500;
+    font-family: var(--font-futuristic);
     /* background-image: linear-gradient(90deg, rgba(0,0,0,100%),rgba(0,0,0,40%)), url('../img/space-banner.jpg'); */
     /* background-size: cover; */
 }
@@ -506,12 +517,3 @@ footer {
     font-family: 'Roboto';
     font-weight: 100;
 }
-
-/* DEBUG  */
-.jumbotron {
-    /* display: none; */
-}
-.new-products {
-    /* display: none; */
-}
-
