@@ -8,7 +8,7 @@ Using HTML and CSS, I created a landing page for an space agency, called AstroMa
 
 ## Landing page Wireframe
 
-[Here](https://github.com/MarceloAndresMendoza/landing_venta/blob/main/Maqueta%20Astromart.jpg) you can view a wireframe of the website, with the initial idea.
+[Here](https://github.com/MarceloAndresMendoza/landing_venta/blob/main/maqueta-astromart.jpg) you can view a wireframe of the website, with the initial idea.
 
 ## Visuals and preview 👀
 
@@ -41,7 +41,7 @@ For all available versions, check out the [tags in this repository](https://gith
 
 ## Authors ✒️
 
-None yet.
+[Marcelo Mendoza](https://github.com/MarceloAndresMendoza) .
 
 
 ## License 📄
