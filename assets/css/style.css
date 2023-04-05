@@ -67,7 +67,7 @@ li {
 }
 
 .navbar-expanded, .navbar-expanded * {
-    font-family: var(--font-futuristic);
+    font-family: var(--font-regular);
 }
 
 /* The logo  */
@@ -86,12 +86,12 @@ li {
 
 .gray-em {
     color: rgb(200, 200, 205);
+    font-family: var(--font-futuristic);
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-family: 'Roboto';
 }
 nav ul li a:hover {
     transition-duration: 600ms;
@@ -311,7 +311,7 @@ main section article {
 }
 
 .container-fluid {
-    margin:  40px 0;
+    margin:  40px 0 0 0;
 }
 
 /* FIRST SECTION==================================== */
@@ -391,13 +391,13 @@ main section article {
 
 .table-call-to-action {
     width: 100vw;
-
 }
 
 .cta-bg-image {
     background-image: linear-gradient(110deg,rgba(10,10,25,0%),30%, rgba(10,10,25,80%)),url(../img/hero-shipping.png);
     background-size: cover;
     height: 700px;
+    width: 100%;
 }
 
 .cta-text h1 {
@@ -498,27 +498,51 @@ main section article {
 
 
 /* ===== FOOTER =================== */
-footer {
+footer *{
     background-color: black;
+    font-family: var(--font-bold);
+    font-size: 14px;
+    color: rgb(180,180,180)
 }
 
 .footer-table {
-    margin: var(--document-horizontal-margin) 0 0 0;
+    margin: var(--document-horizontal-margin) 0 0;
     padding: var(--document-horizontal-margin);
+    padding-bottom: 70px;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .footer-column {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin: 20px;
+    min-width: 150px;
 }
 
 .footer-column a {
-    color: white;
     text-decoration: none;
-    font-family: 'Roboto';
     font-weight: 100;
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-icon img{
+    max-width: 42px;
+    max-height: 42px;
+}
+
+.social-icon-title {
+    margin: auto 5px;
+}
+
+.footer-title {
+    margin: 5px 0;
+    font-family: var(--font-light);
+    color:gray
 }

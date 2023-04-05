@@ -1,12 +1,18 @@
-# Version 1.1.0
+# Rev 1
 
 Started version control numbering.
 - Added author info on readme.md
 - Added this file to better track changes
 - Change landing wireframe filename to lowcase
 
-# Version 1.1.1
+# Rev 2
 
 Font Fixing
 - Used variables to store font families
 - Exported to another CSS file font url linking
+
+# Rev 3
+
+Footer added & minor menu changes
+- Added footer, social media icons, links
+- Tweaked some fonts on menu
