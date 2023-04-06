@@ -16,3 +16,8 @@ Font Fixing
 Footer added & minor menu changes
 - Added footer, social media icons, links
 - Tweaked some fonts on menu
+
+# Rev 4
+Animations and eye-candy
+- Added some animations and transitions for hover events
+- Added details to card section

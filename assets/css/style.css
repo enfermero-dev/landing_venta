@@ -6,6 +6,7 @@
 
 /* DOCUMENT VARIABLES  */
 :root {
+    --color-emphasis: #0AEBF3;
     --document-horizontal-margin: 20px;
     --ui-button-color: rgba(57, 57, 70,30%);
     --font-futuristic: 'Michroma', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -96,7 +97,7 @@ nav ul li a {
 nav ul li a:hover {
     transition-duration: 600ms;
     text-decoration: none;
-    color: #0AEBF3;
+    color: var(--color-emphasis);
 }
 
 nav button {
@@ -334,6 +335,7 @@ main section article {
 }
 
 .card { /* An individual card */
+    transition-duration: 1000ms;
     width: 32%;
     height: 600px;
     border-radius: 10px;
@@ -367,12 +369,19 @@ main section article {
 }
 
 .card-details {
+    transition-duration: 500ms;
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(180deg, rgba(0,0,0,0%),50%, rgba(0,0,0,20%), 70%, rgba(0,0,0,100%));
+    opacity: 0.6;
+    background-image: linear-gradient(180deg, rgba(0,0,0,10%),50%, rgba(0,0,0,20%), 70%, rgba(0,0,0,100%));
+}
+
+.card-details:hover {
+    transition-duration: 500ms;
+    opacity: 1;
 }
 
 .card-details-text {
@@ -394,10 +403,16 @@ main section article {
 }
 
 .cta-bg-image {
+    transition-duration: 500ms;
     background-image: linear-gradient(110deg,rgba(10,10,25,0%),30%, rgba(10,10,25,80%)),url(../img/hero-shipping.png);
     background-size: cover;
     height: 700px;
     width: 100%;
+}
+
+.cta-bg-image:hover {
+    transition-duration: 1000ms;
+    transform: scale(101%);
 }
 
 .cta-text h1 {
@@ -441,6 +456,7 @@ main section article {
 }
 
 .categories-item { /* An individual card */
+    transition-duration: 1000ms;
     position: relative;
     width: 19%;
     overflow: hidden;
@@ -448,8 +464,25 @@ main section article {
     border-radius: 20px;
 }
 
-.categories-item:hover {
+.categories-item-details {
     transition-duration: 500ms;
+    opacity: 0;
+    font-family: var(--font-light);
+    position: relative;
+    top: 75%;
+    width: 80%;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.categories-item:hover  .categories-item-details{
+    opacity: 1;
+    transition-duration: 500ms;
+    transition-delay: 200ms;
+}
+
+.categories-item:hover {
+    transition-duration: 200ms;
     transform: scale(105%);
 }
 
@@ -475,18 +508,23 @@ main section article {
     }
 }
 
-
 .categories-item img {
     width: 100%;
 }
 
 .categories-item-text {
+    transition-duration: 500ms;
     font-family: var(--font-light);
     position: absolute;
     top: calc(100% - 2em);
     width: calc(100% - 40px);
     margin: 0 20px;
     font-size: x-large;
+}
+
+.categories-item:hover .categories-item-text {
+    transition-duration: 500ms;
+    top: 70%;
 }
 
 /* Align text at center on mobile  */
@@ -527,6 +565,10 @@ footer *{
     font-weight: 100;
 }
 
+.footer-column a:hover {
+    color: var(--color-emphasis);
+}
+
 .social-icon {
     display: flex;
     flex-direction: row;
@@ -539,6 +581,10 @@ footer *{
 
 .social-icon-title {
     margin: auto 5px;
+}
+
+.social-icon-title:hover {
+    color: var(--color-emphasis);
 }
 
 .footer-title {
