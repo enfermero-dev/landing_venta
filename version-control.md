@@ -21,3 +21,7 @@ Footer added & minor menu changes
 Animations and eye-candy
 - Added some animations and transitions for hover events
 - Added details to card section
+
+# Rev 5
+Optimizations
+- Reduced image size by jpg compressing

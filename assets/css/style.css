@@ -157,7 +157,7 @@ nav button:hover , .jumbotron-button:hover, .cta-button:hover {
     width: 100%;
     height: 750px;
     background-size: cover;
-    background-image: linear-gradient(180deg,rgba(0,0,0,0),50%,rgba(0,0,0,90%)),url(../img/astromart-outside.png);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0),50%,rgba(0,0,0,90%)),url(../img/astromart-outside.jpg);
 }
 
 .jumbotron-text {
@@ -404,7 +404,7 @@ main section article {
 
 .cta-bg-image {
     transition-duration: 500ms;
-    background-image: linear-gradient(110deg,rgba(10,10,25,0%),30%, rgba(10,10,25,80%)),url(../img/hero-shipping.png);
+    background-image: linear-gradient(110deg,rgba(10,10,25,0%),30%, rgba(10,10,25,80%)),url(../img/hero-shipping.jpg);
     background-size: cover;
     height: 700px;
     width: 100%;
