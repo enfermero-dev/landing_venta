@@ -12,7 +12,7 @@ Using HTML and CSS, I created a landing page for an space agency, called AstroMa
 
 ## Visuals and preview 👀
 
-You can view my current progress [here](https://marceloandresmendoza.github.io/landing_venta/)!
+You can view the current deployed version [here](https://marceloandresmendoza.github.io/landing_venta/)!
 
 ## How to clone 🚀
 
