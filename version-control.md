@@ -29,3 +29,8 @@ Optimizations
 # Rev 6
 File compressing
 - Last attempt didn't work, so tried again
+
+# Rev 7
+Legibility and mobile optimization
+- Tweaked some legibility settings
+- Card text shows on mobile by default, since user interaction is different on mobile
