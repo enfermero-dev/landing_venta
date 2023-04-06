@@ -25,3 +25,7 @@ Animations and eye-candy
 # Rev 5
 Optimizations
 - Reduced image size by jpg compressing
+
+# Rev 6
+File compressing
+- Last attempt didn't work, so tried again
